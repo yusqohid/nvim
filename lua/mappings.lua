@@ -16,8 +16,6 @@ map("n", "<leader>a", "<cmd>e $MYVIMRC<CR>", { desc = "Edit Config File" })
 map("n", "<leader>R", "<cmd> restart <CR>")
 map("n", "<leader>rs", ":source $MYVIMRC <CR>")
 map("n", "<leader>tn", "<cmd>tabnew<CR>", { desc = "New Tab" })
-map("i", "jk", "<Esc>", { desc = "Exit Insert Mode" })
-map("n", "-", "<CMD>Explore<CR>", { desc = "Open parent directory" })
 map("n", "<leader>cd", "<cmd>lcd %:p:h<cr><cmd>pwd<cr>", {
   desc = "Change Directory to current file"
 })

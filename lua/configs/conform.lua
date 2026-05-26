@@ -1,8 +1,16 @@
 local options = {
   formatters_by_ft = {
     lua = { "stylua" },
-    -- css = { "prettier" },
-    -- html = { "prettier" },
+    python = { "ruff" },
+    typescript = { "oxfmt" },
+    javascript = { "oxfmt" },
+    typescriptreact = { "oxfmt" },
+    javascriptreact = { "oxfmt" },
+    html = { "oxfmt" },
+    css = { "oxfmt" },
+    vue = { "oxfmt" },
+    json = { "oxfmt" },
+    blade = { "blade-formatter" },
   },
 
   -- format_on_save = {
