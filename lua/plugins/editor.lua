@@ -40,8 +40,8 @@ return {
     dependencies = {
       "copilotlsp-nvim/copilot-lsp",       -- (optional) for NES functionality
     },
-    event = "InsertEnter",
-    -- cmd = "Copilot",
+    -- event = "InsertEnter",
+    cmd = "Copilot",
     config = function()
       require("copilot").setup({
         suggestion = { auto_trigger = true },
